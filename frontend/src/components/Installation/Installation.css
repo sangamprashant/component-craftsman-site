@@ -1,0 +1,84 @@
+:root {
+  /*for titles*/
+  --font-heeb: "Heebo", sans-serif;
+  /*for descriptions*/
+  --font-rob: "Roboto", sans-serif;
+  /*for codes*/
+  --font-cod: "Asap", sans-serif;
+  --installaion-title-night-color:rgb(218, 218, 218);
+  --installaion-content-night-color:rgb(130, 130, 130);
+}
+
+.installation {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0 0 0;
+}
+.installation .installation-container {
+  width: 100%;
+  background-color: rgba(217, 217, 217, 0.195);
+  max-width: 900px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.installation .installation-container.night {
+  background-color: rgba(49, 49, 49, 0.17);
+}
+
+.default-installation.night {
+  color: var(--installaion-title-night-color);
+}
+.sub-title {
+  margin: 40px 0 0 0;
+}
+
+.sub-title.night {
+  color: var(--installaion-title-night-color);
+}
+
+.table-code,
+.th-code,
+.td-code {
+  border-collapse: collapse;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 98%;
+}
+
+.th-code {
+  font: normal bold 0.85em var(--font-heeb);
+  text-align: left;
+  background-color: #415e78;
+  color: white;
+  letter-spacing: 0.05em;
+  padding: 0.85em 1.5em;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.td-code {
+  font: normal 300 1em var(--font-rob);
+  background-color: #111111;
+  padding: 1em 1.25em;
+  letter-spacing: 0.03em;
+  line-height: 1.5em;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+}
+
+.td-code .td-code-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.td-code .td-code-block button {
+  height: 30px;
+  color: aliceblue;
+  background-color: transparent;
+  border: none;
+}
+
+.install-content.night{
+  color: var(--installaion-content-night-color);
+}
