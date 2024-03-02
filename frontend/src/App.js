@@ -22,14 +22,14 @@ function App() {
 
   return (
     <AppContext.Provider value={{ isDark, toggleDarkMode }}>
-      <BrowserRouter>
+      <BrowserRouter basename="/component-craftsman-site">
         <div >
           <Navbar />
           <div style={{ paddingTop: "80px" }}>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/installation" element={<Installation />} />
-              <Route path="/component" element={<ComponentDashboard />} />
+            <Routes >
+              <Route exact path="/" element={<Home />} />
+              <Route exact path="/installation" element={<Installation />} />
+              <Route exact path="/component" element={<ComponentDashboard />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </div>
