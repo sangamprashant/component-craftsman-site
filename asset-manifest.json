@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/component-craftsman-site/static/css/main.8f0c2dae.css",
-    "main.js": "/component-craftsman-site/static/js/main.8ad37015.js",
+    "main.css": "/component-craftsman-site/static/css/main.a1d6b712.css",
+    "main.js": "/component-craftsman-site/static/js/main.f9292a24.js",
     "static/js/453.1f863e72.chunk.js": "/component-craftsman-site/static/js/453.1f863e72.chunk.js",
     "static/media/cyclist.gif": "/component-craftsman-site/static/media/cyclist.4753aaf6ec2bb82e0a6f.gif",
     "static/media/home.png": "/component-craftsman-site/static/media/home.3c4cf3660f793388bb06.png",
@@ -12,12 +12,12 @@
     "static/media/image3015.png": "/component-craftsman-site/static/media/image3015.dbc04fd5af0d2f678503.png",
     "static/media/logo2.png": "/component-craftsman-site/static/media/logo2.ca7117cb95a71c8175cd.png",
     "index.html": "/component-craftsman-site/index.html",
-    "main.8f0c2dae.css.map": "/component-craftsman-site/static/css/main.8f0c2dae.css.map",
-    "main.8ad37015.js.map": "/component-craftsman-site/static/js/main.8ad37015.js.map",
+    "main.a1d6b712.css.map": "/component-craftsman-site/static/css/main.a1d6b712.css.map",
+    "main.f9292a24.js.map": "/component-craftsman-site/static/js/main.f9292a24.js.map",
     "453.1f863e72.chunk.js.map": "/component-craftsman-site/static/js/453.1f863e72.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f0c2dae.css",
-    "static/js/main.8ad37015.js"
+    "static/css/main.a1d6b712.css",
+    "static/js/main.f9292a24.js"
   ]
 }
