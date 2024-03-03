@@ -170,6 +170,9 @@ img {
   .header-navigation {
     display: none;
   }
+  .menu-overlay{
+    display: flex;
+  }
 }
 
 .header-navigation-links {
@@ -577,4 +580,28 @@ img {
   background-color: var(--c-text-primary);
   border: 4px solid var(--c-background-primary);
   border-radius: 99em;
+}
+
+
+.menu-overlay {
+  display: none;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  height: 100vh;
+  background-color: #dce0ed;
+}
+
+.mobile-link-option{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.mobile-link-option a{
+  background-color: #282a32;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-align: center;
 }
