@@ -1,6 +1,12 @@
 import React from "react";
 import "./App.css";
-import { ComponentDashboard, Home, Installation, Navbar, NotFound } from "./components";
+import {
+  ComponentDashboard,
+  Home,
+  Installation,
+  Navbar,
+  NotFound,
+} from "./components";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "component-craftsman/css";
 import { AppContext } from "./AppProvider";
@@ -22,11 +28,11 @@ function App() {
 
   return (
     <AppContext.Provider value={{ isDark, toggleDarkMode }}>
-      <BrowserRouter basename="/component-craftsman-site">
-        <div >
+      <BrowserRouter>
+        <div>
           <Navbar />
           <div style={{ paddingTop: "80px" }}>
-            <Routes >
+            <Routes>
               <Route exact path="/" element={<Home />} />
               <Route exact path="/installation" element={<Installation />} />
               <Route exact path="/component" element={<ComponentDashboard />} />
